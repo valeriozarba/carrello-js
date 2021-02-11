@@ -20,4 +20,4 @@ Per creare il pacchetto da distribuire
 
 ```sh 
 npm run build
-``
+```
