@@ -5,13 +5,19 @@ Webpack compila ed esegue i codici presenti su "./src"
 
 per avviare il progetto installare le dipendenze richieste
 
-'npm install'
+```sh 
+npm install
+```
 
 Completata l'installazione lanciare il comando sotto per avviare il progetto sul server locale
 
-'' npm run startdev ''
+```sh 
+npm run startdev
+```
 
 Per creare il pacchetto da distribuire
 
-'' npm run build ''
 
+```sh 
+npm run build
+``
