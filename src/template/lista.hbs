@@ -1,0 +1,13 @@
+
+  {{#each mockElementi}}
+    <div class="prodotto">
+        <div class="c1"><img src="{{immagine}}" class='fullw'/></div>
+        <div class="c2">
+              <h2>{{nome}}</h2>
+        </div>
+        <div class="c3">
+            <input  data-codice="{{id}}" type="text" value="{{qnt}}" name="qnt[{{id}}]"/>
+        </div>
+        <div class="c4">€ {{prezzo}}</div>
+    </div>
+  {{/each}}
