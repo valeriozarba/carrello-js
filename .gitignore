@@ -1,3 +1,5 @@
 node_modules
 .sonarlint
 .package-lock.json
+.DS_STORE
+dist
