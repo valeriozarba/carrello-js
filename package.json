@@ -6,10 +6,10 @@
   "private": true,
   "scripts": {
     "prebuild": "del-cli dist -f",
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "dev": "webpack --watch --mode=production",
     "server": "http-server ./dist",
-    "start": "npm run build -s && npm run server -s"
+    "startdev": "npm run build -s && npm run server -s"
   },
   "author": "valerio zarba",
   "license": "ISC",
